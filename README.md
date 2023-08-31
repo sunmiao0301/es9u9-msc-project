@@ -20,7 +20,7 @@ Here's a quick guide on how to set up, deploy, and use the project:
 
 ### Step 2: Deployment
 
-**As the project already includes build files, there's no need to compile.**
+**As the project already includes build files, there's no need to compile. However, please ensure you have completed all the configurations mentioned in "3.4.3.1 Setup " in my dissertation.**
 
 1. Start an Ethereum private chain, for example, using Ganache.
 
