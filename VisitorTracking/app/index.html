@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Secure Blockchain-based Monitoring System of Foreign Visitors with Criminal Background</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+  <script src="./build/app.js"></script>
+</head>
+<body class="container">
+  <h1>Secure Blockchain-based Monitoring System of Foreign Visitors with Criminal Background</h1>
+<br> <label for="contractAddress">contract address:</label> <input type="text" class="form-control" id="contractAddress" placeholder="Scan address or create a new contract"></input>
+<br> <label for="locationName">Visitor Unique Identifier:</label> <input type="text" class="form-control" id="visitorName" placeholder="VisitorID"></input>
+<br> <label for="locationName">Location:</label> <input type="text" class="form-control" id="locationName" placeholder="Location"></input>
+<br> <label for="locationName">Registrar:</label> <input type="text" class="form-control" id="personName" placeholder="Registrar"></input>
+
+
+<br> <br>
+<button class="btn btn-primary" id="createContract" onclick="App.createContract()">createNewVisitor</button>
+
+<button class="btn btn-primary" id="addNewLocation" onclick="App.addNewLocation()">addNewActivity</button>
+
+<button class="btn btn-primary" id="getCurrentLocation" onclick="App.getCurrentLocation()">getActivityOf</button>
+<br> <br>
+
+
+<div class="bs-example" style="border: 1.4px solid #dddddd;">
+  
+  <div id="table_visitorName" style="font-size: 18px;margin-left: 9px;"></div>
+  
+  <table class="table table-hover" id="tb">
+    <thead>
+      <tr>
+        <th>Location</th>
+        <th>Registrar</th>
+        <th>Time</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</div>
+
+
+</body>
+</html>
+

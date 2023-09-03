@@ -1,0 +1,1 @@
+const VisitorTracking = artifacts.require("VisitorTracking");

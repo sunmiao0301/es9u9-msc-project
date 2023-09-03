@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "babel-register": "^6.26.0",
+    "eth-gas-reporter": "^0.2.25",
+    "web3": "^0.18.4"
+  }
+}
